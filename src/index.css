@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width : 480px){
+  #about-page{
+    margin-top : 200px;
+  }
+  #student-list-page{
+    margin-top : 200px;
+  }
+  #login-page{
+    margin-top : 200px;
+  }
+  #navbar{
+    margin-top : 5px;
+    width : 90%
+  }
+};
