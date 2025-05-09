@@ -38,7 +38,7 @@ const Navbar = () => {
       </button>
 
       {/* Dropdown Menu (Mobile) */}
-      <div className={`absolute top-full left-0 w-full bg-blue-600 p-5 space-y-2 transition-all duration-300 ${isOpen ? "block" : "hidden"} md:hidden`}>
+      <div className={`absolute top-full left-0 w-full bg-blue-600 p-5 mt-1 space-y-2 rounded transition-all duration-300 ${isOpen ? "block" : "hidden"} md:hidden`}>
         <Link to="/" className="block text-white text-lg hover:underline">Home</Link>
         <Link to="/about" className="block text-white text-lg hover:underline">About Us</Link>
         <button 
